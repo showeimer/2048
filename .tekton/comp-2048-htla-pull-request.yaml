@@ -13,6 +13,7 @@ metadata:
     appstudio.openshift.io/application: sho-2048
     appstudio.openshift.io/component: comp-2048-htla
     pipelines.appstudio.openshift.io/type: build
+    test: rebuild
   name: comp-2048-htla-on-pull-request
   namespace: showeimer-tenant
 spec:
